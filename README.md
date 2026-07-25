@@ -17,6 +17,11 @@ the specific numbers in the book.
 |---|-------|----------|
 | **2.1** | Problem Simplification | Screwy pirates · Tiger and sheep |
 | **2.2** | Logic Reasoning | River crossing · Birthday problem · Card game · Burning ropes · Defective ball · Trailing zeros · Horse race · Infinite power tower |
+| **2.3** | Thinking Out of the Box | Box packing · Calendar cubes · Door to offer · Message delivery · Last ball · Light switches · Quant salary |
+
+§2.3 leans on insight over computation, so its pure *aha* puzzles (Calendar
+cubes, Door to offer, Message delivery, Light switches) are written up as prose;
+only the problems with real algorithmic content carry code.
 
 More sections will be added as I read further.
 
