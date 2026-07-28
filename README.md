@@ -19,12 +19,14 @@ the specific numbers in the book.
 | **2.2** | Logic Reasoning | River crossing · Birthday problem · Card game · Burning ropes · Defective ball · Trailing zeros · Horse race · Infinite power tower |
 | **2.3** | Thinking Out of the Box | Box packing · Calendar cubes · Door to offer · Message delivery · Last ball · Light switches · Quant salary |
 | **2.4** | Application of Symmetry | Coin piles · Mislabeled bags · Wise men |
+| **2.5** | Series Summation | Clock pieces · Missing integers · Counterfeit coins · Glass balls |
 
 §2.3 leans on insight over computation, so its pure *aha* puzzles (Calendar
 cubes, Door to offer, Message delivery, Light switches) are written up as prose;
 only the problems with real algorithmic content carry code. §2.4 continues that
 mix: Coin piles and Wise men carry code, while Mislabeled bags is a one-draw
-deduction written up as prose.
+deduction written up as prose. Every §2.5 problem carries code; each is
+generalised to `n` except Clock pieces, whose numbers 1–12 are fixed in place.
 
 More sections will be added as I read further.
 
