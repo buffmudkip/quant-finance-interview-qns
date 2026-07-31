@@ -20,7 +20,7 @@ the specific numbers in the book.
 | **2.3** | Thinking Out of the Box | Box packing · Calendar cubes · Door to offer · Message delivery · Last ball · Light switches · Quant salary |
 | **2.4** | Application of Symmetry | Coin piles · Mislabeled bags · Wise men |
 | **2.5** | Series Summation | Clock pieces · Missing integers · Counterfeit coins · Glass balls |
-| **2.6** | The Pigeon Hole Principle | Matching socks · Handshakes · Have we met before? · Ants on a square |
+| **2.6** | The Pigeon Hole Principle | Matching socks · Handshakes · Have we met before? · Ants on a square · Counterfeit coins II |
 
 §2.3 leans on insight over computation, so its pure *aha* puzzles (Calendar
 cubes, Door to offer, Message delivery, Light switches) are written up as prose;
