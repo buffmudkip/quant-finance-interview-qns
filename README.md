@@ -22,6 +22,7 @@ the specific numbers in the book.
 | **2.5** | Series Summation | Clock pieces · Missing integers · Counterfeit coins · Glass balls |
 | **2.6** | The Pigeon Hole Principle | Matching socks · Handshakes · Have we met before? · Ants on a square · Counterfeit coins II |
 | **2.7** | Modular Arithmetic | Prisoner problem · Division by 9 · Chameleon colors |
+| **2.8** | Math Induction | Coin split · Chocolate bar · Race track |
 
 §2.3 leans on insight over computation, so its pure *aha* puzzles (Calendar
 cubes, Door to offer, Message delivery, Light switches) are written up as prose;
@@ -33,7 +34,10 @@ generalised to `n` except Clock pieces, whose numbers 1–12 are fixed in place.
 generalised forms) and applies it to each problem — these are proofs of
 inevitability, not algorithms. §2.7 opens with a detailed primer on congruences
 and then gives full derivations: Prisoner problem and Chameleon colors carry
-solve-for-`n` code, while Division by 9 is a markdown-only proof.
+solve-for-`n` code, while Division by 9 is a markdown-only proof. §2.8 works the
+induction step by step for each problem: Coin split and Race track carry
+solve-for-`n` code (and Race track also gives the `O(n)` greedy shortcut), while
+Chocolate bar is a markdown-only proof paired with its piece-count shortcut.
 
 More sections will be added as I read further.
 
