@@ -23,6 +23,7 @@ the specific numbers in the book.
 | **2.6** | The Pigeon Hole Principle | Matching socks · Handshakes · Have we met before? · Ants on a square · Counterfeit coins II |
 | **2.7** | Modular Arithmetic | Prisoner problem · Division by 9 · Chameleon colors |
 | **2.8** | Math Induction | Coin split · Chocolate bar · Race track |
+| **2.9** | Proof by Contradiction | Rainbow hats |
 
 §2.3 leans on insight over computation, so its pure *aha* puzzles (Calendar
 cubes, Door to offer, Message delivery, Light switches) are written up as prose;
@@ -38,6 +39,9 @@ solve-for-`n` code, while Division by 9 is a markdown-only proof. §2.8 works th
 induction step by step for each problem: Coin split and Race track carry
 solve-for-`n` code (and Race track also gives the `O(n)` greedy shortcut), while
 Chocolate bar is a markdown-only proof paired with its piece-count shortcut.
+§2.9 gives the Rainbow hats problem a plain, step-by-step walkthrough (each
+prisoner covers one residue of the colour sum mod `n`, so exactly one is always
+right) with a solve-for-`n` function.
 
 More sections will be added as I read further.
 
