@@ -24,6 +24,8 @@ the specific numbers in the book.
 | **2.7** | Modular Arithmetic | Prisoner problem · Division by 9 · Chameleon colors |
 | **2.8** | Math Induction | Coin split · Chocolate bar · Race track |
 | **2.9** | Proof by Contradiction | Rainbow hats |
+| **3.1** | Differentiation | Reference notes: rules · standard derivatives · applications |
+| **3.2** | Integration | Reference notes: FTC · antiderivatives · techniques · applications |
 
 §2.3 leans on insight over computation, so its pure *aha* puzzles (Calendar
 cubes, Door to offer, Message delivery, Light switches) are written up as prose;
@@ -42,6 +44,11 @@ Chocolate bar is a markdown-only proof paired with its piece-count shortcut.
 §2.9 gives the Rainbow hats problem a plain, step-by-step walkthrough (each
 prisoner covers one residue of the colour sum mod `n`, so exactly one is always
 right) with a solve-for-`n` function.
+
+Chapter 3 switches from puzzles to a **calculus reference**: §3.1 (differentiation)
+and §3.2 (integration) are comprehensive markdown notes — rules, standard tables,
+and applications (Taylor expansions, optimisation, expectations of continuous
+random variables) — with no code, since the material is formula-centric.
 
 More sections will be added as I read further.
 
