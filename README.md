@@ -26,6 +26,7 @@ the specific numbers in the book.
 | **2.9** | Proof by Contradiction | Rainbow hats |
 | **3.1** | Differentiation | Reference notes: rules · standard derivatives · applications |
 | **3.2** | Integration | Reference notes: FTC · antiderivatives · techniques · applications |
+| **3.3** | Partial Derivatives & Multiple Integrals | Reference notes: partial & mixed derivatives · general chain rule · Cartesian→polar · worked Gaussian integral |
 
 §2.3 leans on insight over computation, so its pure *aha* puzzles (Calendar
 cubes, Door to offer, Message delivery, Light switches) are written up as prose;
@@ -48,7 +49,9 @@ right) with a solve-for-`n` function.
 Chapter 3 switches from puzzles to a **calculus reference**: §3.1 (differentiation)
 and §3.2 (integration) are comprehensive markdown notes — rules, standard tables,
 and applications (Taylor expansions, optimisation, expectations of continuous
-random variables) — with no code, since the material is formula-centric.
+random variables) — with no code, since the material is formula-centric. §3.3
+adds partial derivatives, the general chain rule, and the Cartesian→polar change
+of variables, then works the Gaussian integral `∫₀^∞ e^{-x²/2} dx = √(π/2)`.
 
 More sections will be added as I read further.
 
