@@ -4,14 +4,17 @@ Worked solutions to problems from **Xinfeng Zhou — _A Practical Guide to
 Quantitative Finance Interviews_** ("the Green Book"), coded up as I read through
 the book.
 
-## Notebook
+## Notebooks
 
-[`quant_finance_interviews.ipynb`](quant_finance_interviews.ipynb) — each problem
-comes with a markdown explanation of the reasoning and **one general-purpose
-function** that solves every instance (all `n`, arbitrary parameters), not just
-the specific numbers in the book.
+- [`quant_finance_interviews.ipynb`](quant_finance_interviews.ipynb) — **Chapter 2
+  brain teasers.** Each problem gets a markdown explanation of the reasoning and,
+  where there is algorithmic content, **one general-purpose function** that solves
+  every instance (all `n`, arbitrary parameters), not just the book's numbers.
+- [`quant_finance_calculus.ipynb`](quant_finance_calculus.ipynb) — **Chapter 3
+  calculus.** Comprehensive, formula-centric reference notes (no code): rules,
+  standard tables, worked examples, and **use cases** for each method.
 
-### Coverage
+### Coverage — Chapter 2 · brain teasers (`quant_finance_interviews.ipynb`)
 
 | § | Theme | Problems |
 |---|-------|----------|
@@ -24,10 +27,6 @@ the specific numbers in the book.
 | **2.7** | Modular Arithmetic | Prisoner problem · Division by 9 · Chameleon colors |
 | **2.8** | Math Induction | Coin split · Chocolate bar · Race track |
 | **2.9** | Proof by Contradiction | Rainbow hats |
-| **3.1** | Differentiation | Reference notes: rules · standard derivatives · applications |
-| **3.2** | Integration | Reference notes: FTC · antiderivatives · techniques · applications |
-| **3.3** | Partial Derivatives & Multiple Integrals | Reference notes: partial & mixed derivatives · general chain rule · Cartesian→polar · worked Gaussian integral |
-| **3.4** | Important Calculus Methods | Reference notes: Taylor's series (i^i, Bernoulli) · Newton's method (√37, bisection & secant) · Lagrange multipliers (distance to a plane) |
 
 §2.3 leans on insight over computation, so its pure *aha* puzzles (Calendar
 cubes, Door to offer, Message delivery, Light switches) are written up as prose;
@@ -47,15 +46,16 @@ Chocolate bar is a markdown-only proof paired with its piece-count shortcut.
 prisoner covers one residue of the colour sum mod `n`, so exactly one is always
 right) with a solve-for-`n` function.
 
-Chapter 3 switches from puzzles to a **calculus reference**: §3.1 (differentiation)
-and §3.2 (integration) are comprehensive markdown notes — rules, standard tables,
-and applications (Taylor expansions, optimisation, expectations of continuous
-random variables) — with no code, since the material is formula-centric. §3.3
-adds partial derivatives, the general chain rule, and the Cartesian→polar change
-of variables, then works the Gaussian integral `∫₀^∞ e^{-x²/2} dx = √(π/2)`. §3.4 covers three
-important methods with worked examples — Taylor's series (with `Tₙ(x)+Rₙ(x)`,
-`i^i = e^{-π/2}`, and Bernoulli's inequality), Newton's method (`√37`, plus the
-bisection and secant cousins), and Lagrange multipliers (distance to a plane).
+### Coverage — Chapter 3 · calculus (`quant_finance_calculus.ipynb`)
+
+Formula-centric reference notes (no code); every method carries some **use cases**.
+
+| § | Topic | Contents |
+|---|-------|----------|
+| **3.1** | Differentiation | rules · standard-derivatives table · applications — extrema, Rolle, MVT, L'Hôpital, Taylor, Newton, related rates |
+| **3.2** | Integration | FTC · antiderivatives table · techniques (u-sub, by parts, partial fractions, trig sub, improper) · applications (geometry, expectations, Gaussian & Gamma, discounting) |
+| **3.3** | Partial Derivatives & Multiple Integrals | partial & mixed derivatives (Clairaut, Hessian) · general chain rule · Cartesian→polar · worked Gaussian integral `∫₀^∞ e^{-x²/2} dx = √(π/2)` |
+| **3.4** | Important Calculus Methods | Taylor's series (`i^i`, Bernoulli) · Newton's method (`√37`, bisection & secant) · Lagrange multipliers (distance to a plane) |
 
 More sections will be added as I read further.
 
@@ -63,7 +63,8 @@ More sections will be added as I read further.
 
 ```bash
 pip install notebook
-jupyter notebook quant_finance_interviews.ipynb
+jupyter notebook quant_finance_interviews.ipynb   # or quant_finance_calculus.ipynb
 ```
 
-The notebook uses only the Python standard library.
+The brain-teaser notebook uses only the Python standard library; the calculus
+notebook is all markdown (no execution needed).
