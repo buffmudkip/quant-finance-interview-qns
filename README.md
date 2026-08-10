@@ -27,6 +27,7 @@ the specific numbers in the book.
 | **3.1** | Differentiation | Reference notes: rules · standard derivatives · applications |
 | **3.2** | Integration | Reference notes: FTC · antiderivatives · techniques · applications |
 | **3.3** | Partial Derivatives & Multiple Integrals | Reference notes: partial & mixed derivatives · general chain rule · Cartesian→polar · worked Gaussian integral |
+| **3.4** | Important Calculus Methods | Reference notes: Taylor's series (i^i, Bernoulli) · Newton's method (√37, bisection & secant) · Lagrange multipliers (distance to a plane) |
 
 §2.3 leans on insight over computation, so its pure *aha* puzzles (Calendar
 cubes, Door to offer, Message delivery, Light switches) are written up as prose;
@@ -51,7 +52,10 @@ and §3.2 (integration) are comprehensive markdown notes — rules, standard tab
 and applications (Taylor expansions, optimisation, expectations of continuous
 random variables) — with no code, since the material is formula-centric. §3.3
 adds partial derivatives, the general chain rule, and the Cartesian→polar change
-of variables, then works the Gaussian integral `∫₀^∞ e^{-x²/2} dx = √(π/2)`.
+of variables, then works the Gaussian integral `∫₀^∞ e^{-x²/2} dx = √(π/2)`. §3.4 covers three
+important methods with worked examples — Taylor's series (with `Tₙ(x)+Rₙ(x)`,
+`i^i = e^{-π/2}`, and Bernoulli's inequality), Newton's method (`√37`, plus the
+bisection and secant cousins), and Lagrange multipliers (distance to a plane).
 
 More sections will be added as I read further.
 
