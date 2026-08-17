@@ -57,6 +57,7 @@ Formula-centric reference notes (no code); every method carries some **use cases
 | **3.3** | Partial Derivatives & Multiple Integrals | partial & mixed derivatives (Clairaut, Hessian) · general chain rule · Cartesian→polar · worked Gaussian integral `∫₀^∞ e^{-x²/2} dx = √(π/2)` |
 | **3.4** | Important Calculus Methods | Taylor's series (`i^i`, Bernoulli) · Newton's method (`√37`, bisection & secant) · Lagrange multipliers (distance to a plane) |
 | **3.5** | Ordinary Differential Equations | separable · first-order linear (integrating factor) · homogeneous 2nd-order (characteristic equation) · non-homogeneous (undetermined coefficients) — worked examples throughout |
+| **3.6** | Linear Algebra | correlation as vector angle · eigenvalues/eigenvectors · positive semidefinite / correlation matrices · linear least squares (normal equations + OLS assumptions) · Cholesky & SVD for correlated normals |
 
 More sections will be added as I read further.
 
