@@ -13,6 +13,9 @@ the book.
 - [`quant_finance_calculus.ipynb`](quant_finance_calculus.ipynb) — **Chapter 3
   calculus.** Comprehensive, formula-centric reference notes (no code): rules,
   standard tables, worked examples, and **use cases** for each method.
+- [`quant_finance_probability.ipynb`](quant_finance_probability.ipynb) — **Chapter 4
+  probability theory.** Each problem gets an explanation plus a solve-for-`n`
+  function, with a Monte-Carlo check where the closed form is subtle.
 
 ### Coverage — Chapter 2 · brain teasers (`quant_finance_interviews.ipynb`)
 
@@ -59,14 +62,22 @@ Formula-centric reference notes (no code); every method carries some **use cases
 | **3.5** | Ordinary Differential Equations | separable · first-order linear (integrating factor) · homogeneous 2nd-order (characteristic equation) · non-homogeneous (undetermined coefficients) — worked examples throughout |
 | **3.6** | Linear Algebra | correlation as vector angle · eigenvalues/eigenvectors · positive semidefinite / correlation matrices · linear least squares (normal equations + OLS assumptions) · Cholesky & SVD for correlated normals |
 
+### Coverage — Chapter 4 · probability theory (`quant_finance_probability.ipynb`)
+
+Each problem carries a solve-for-`n` function (plus a Monte-Carlo check where useful).
+
+| § | Topic | Problems |
+|---|-------|----------|
+| **4.1** | Basic Probability Definitions & Set Operations | Coin toss game (→ `1/2`) · Card game (→ `8/17`) · Drunk passenger (→ `1/2`) · N points on a circle (→ `N/2^{N-1}`) |
+
 More sections will be added as I read further.
 
 ## Running
 
 ```bash
 pip install notebook
-jupyter notebook quant_finance_interviews.ipynb   # or quant_finance_calculus.ipynb
+jupyter notebook quant_finance_interviews.ipynb   # or _calculus / _probability
 ```
 
-The brain-teaser notebook uses only the Python standard library; the calculus
-notebook is all markdown (no execution needed).
+The brain-teaser and probability notebooks use only the Python standard library;
+the calculus notebook is all markdown (no execution needed).
