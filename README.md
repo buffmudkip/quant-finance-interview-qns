@@ -69,7 +69,7 @@ Each problem carries a solve-for-`n` function (plus a Monte-Carlo check where us
 | § | Topic | Problems |
 |---|-------|----------|
 | **4.1** | Basic Probability Definitions & Set Operations | Coin toss game (→ `1/2`) · Card game (→ `8/17`) · Drunk passenger (→ `1/2`) · N points on a circle (→ `N/2^{N-1}`) |
-| **4.2** | Combinatorial Analysis | Poker hands (four-of-a-kind / full house / two pairs) · Hopping rabbit (→ Fibonacci) · Screwy pirates 2 (→ `C(11,5)` locks, `C(10,5)` keys) · Chess tournament (→ `2^{n-1}/(2^n-1)`) · Application letters (derangement → `11/30`) |
+| **4.2** | Combinatorial Analysis | Poker hands (four-of-a-kind / full house / two pairs) · Hopping rabbit (→ Fibonacci) · Screwy pirates 2 (→ `C(11,5)` locks, `C(10,5)` keys) · Chess tournament (→ `2^{n-1}/(2^n-1)`) · Application letters (derangement → `11/30`) · Birthday problem (→ 23) · 100th digit of `(1+√2)^3000` (→ 9) · Cubic of integer (→ `1/100`) |
 
 More sections will be added as I read further.
 
