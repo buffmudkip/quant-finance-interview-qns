@@ -70,7 +70,7 @@ Each problem carries a solve-for-`n` function (plus a Monte-Carlo check where us
 |---|-------|----------|
 | **4.1** | Basic Probability Definitions & Set Operations | Coin toss game (→ `1/2`) · Card game (→ `8/17`) · Drunk passenger (→ `1/2`) · N points on a circle (→ `N/2^{N-1}`) |
 | **4.2** | Combinatorial Analysis | Poker hands (four-of-a-kind / full house / two pairs) · Hopping rabbit (→ Fibonacci) · Screwy pirates 2 (→ `C(11,5)` locks, `C(10,5)` keys) · Chess tournament (→ `2^{n-1}/(2^n-1)`) · Application letters (derangement → `11/30`) · Birthday problem (→ 23) · 100th digit of `(1+√2)^3000` (→ 9) · Cubic of integer (→ `1/100`) |
-| **4.3** | Conditional Probability & Bayes' Formula | Boys and girls (`1/3` vs `1/2`) · All-girl world? (`50%`) · Unfair coin (Bayes → `1024/2023`) · Fair bit from an unfair coin (von Neumann) · Dart game (→ `n/(n+1)`) · Russian roulette series (½ · go 2nd `5/11` · spin · don't spin) |
+| **4.3** | Conditional Probability & Bayes' Formula | Boys and girls (`1/3` vs `1/2`) · All-girl world? (`50%`) · Unfair coin (Bayes → `1024/2023`) · Fair bit from an unfair coin (von Neumann) · Dart game (→ `n/(n+1)`) · Russian roulette series (½ · go 2nd `5/11` · spin · don't spin) · Birthday line (→ 20th) · Dice order (`5/54`) · Monty Hall (switch → `2/3`) · Amoeba population (`√2−1`) · Candies in a jar (`7/12`) |
 
 More sections will be added as I read further.
 
