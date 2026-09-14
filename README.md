@@ -16,6 +16,9 @@ the book.
 - [`quant_finance_probability.ipynb`](quant_finance_probability.ipynb) — **Chapter 4
   probability theory.** Each problem gets an explanation plus a solve-for-`n`
   function, with a Monte-Carlo check where the closed form is subtle.
+- [`quant_finance_stochastic.ipynb`](quant_finance_stochastic.ipynb) — **Chapter 5
+  stochastic processes.** Markov-chain problems, each with a transition graph, the
+  first-step (one-step) equations, a solve-for-`n` function, and a Monte-Carlo check.
 
 ### Coverage — Chapter 2 · brain teasers (`quant_finance_interviews.ipynb`)
 
@@ -75,14 +78,24 @@ Each problem carries a solve-for-`n` function (plus a Monte-Carlo check where us
 | **4.5** | Expected Value, Variance & Covariance | concepts — covariance/correlation · variance & covariance algebra (bilinearity) · conditional expectation & variance · law of total expectation/variance (tower rule), each with a fair-die worked example · Connecting noodles (→ `∑1/(2k−1)`, ≈3.28) · Optimal hedge ratio (→ `ρσ_A/σ_B`) · Dice game (→ `7`) · Card game (first ace → `10.6`) · Sum of uniforms (→ `1/n!`) · Coupon collection (`N·H_N` / `N(1−((N−1)/N)ⁿ)`; empty-boxes gimmick → ≈1.50) · Joint default probability (P∈`[0.5,0.8]`, ρ∈`[−√(3/7),√(3/7)]`) |
 | **4.6** | Order Statistics | derivation of the min/max CDF & pdf for `n` IID draws from any `F` (`F_min=1−(1−F)ⁿ`, `F_max=Fⁿ`) with a general-`F` simulation check · Expected value of max & min of uniforms (`n/(n+1)`, `1/(n+1)`) · Correlation of max & min (→ `1/n`; conditional prob + geometric density + §4.5 covariance) · Random ants (symmetry → max of `n` uniforms → `500/501`; flags the book's `499/500` off-by-one) |
 
+### Coverage — Chapter 5 · stochastic processes (`quant_finance_stochastic.ipynb`)
+
+Markov chains via first-step analysis; every problem shows its transition graph, the one-step equations, a
+solve-for-`n` function, and a Monte-Carlo check. A small reusable toolkit solves any absorbing chain exactly
+over the rationals (absorption probabilities and expected time to absorption).
+
+| § | Topic | Problems |
+|---|-------|----------|
+| **5.1** | Markov Chains | concepts — transition matrix · path probability · transition graph · classification of states · absorbing chains · absorption-probability & expected-time equations (fundamental matrix) · Gambler's ruin (→ `4/7`) · Dice question (12 before two 7s → `7/13`) · Coin triplets — A: `E[HHH]=14`, `E[THH]=8`; B: `P(HHH before THH)=1/8`; C: Penney's game, rational player 2 wins `2/3` · Color balls (→ `(n−1)²`) |
+
 More sections will be added as I read further.
 
 ## Running
 
 ```bash
 pip install notebook
-jupyter notebook quant_finance_interviews.ipynb   # or _calculus / _probability
+jupyter notebook quant_finance_interviews.ipynb   # or _calculus / _probability / _stochastic
 ```
 
-The brain-teaser and probability notebooks use only the Python standard library;
-the calculus notebook is all markdown (no execution needed).
+The brain-teaser, probability, and stochastic notebooks use only the Python standard
+library; the calculus notebook is all markdown (no execution needed).
