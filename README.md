@@ -87,6 +87,7 @@ over the rationals (absorption probabilities and expected time to absorption).
 | § | Topic | Problems |
 |---|-------|----------|
 | **5.1** | Markov Chains | concepts — transition matrix · path probability · transition graph · classification of states · absorbing chains · absorption-probability & expected-time equations (fundamental matrix) · Gambler's ruin (→ `4/7`) · Dice question (12 before two 7s → `7/13`) · Coin triplets — A: `E[HHH]=14`, `E[THH]=8`; B: `P(HHH before THH)=1/8`; C: Penney's game, rational player 2 wins `2/3` · Color balls (→ `(n−1)²`) |
+| **5.2** | Martingales & Random Walks | concepts — simple vs symmetric random walk · martingale (symmetric walk & `Sₜ²−t`) · stopping times · Wald's equality · optional stopping (a stopped martingale is a martingale) · Drunk man (→ `0.17`, `E[N]=1411`; flags the book's `1441`) · Dice game via Wald (→ `7`) · Ticket line via the reflection principle (→ `1/(n+1)`) · Coin sequence — `n` heads in a row two ways (induction & the gambler/stopped-martingale argument → `2ⁿ⁺¹−2`), plus a general pattern (`HHTTHH → 70`) |
 
 More sections will be added as I read further.
 
