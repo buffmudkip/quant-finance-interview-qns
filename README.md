@@ -19,6 +19,10 @@ the book.
 - [`quant_finance_stochastic.ipynb`](quant_finance_stochastic.ipynb) — **Chapter 5
   stochastic processes.** Markov-chain problems, each with a transition graph, the
   first-step (one-step) equations, a solve-for-`n` function, and a Monte-Carlo check.
+- [`quant_finance_options.ipynb`](quant_finance_options.ipynb) — **Chapter 6
+  finance / option pricing.** Concepts (price direction, put–call parity, American vs
+  European, the BSM PDE, the Black–Scholes formula) explained and solved step by step,
+  each closed form cross-checked numerically.
 
 ### Coverage — Chapter 2 · brain teasers (`quant_finance_interviews.ipynb`)
 
@@ -91,14 +95,23 @@ over the rationals (absorption probabilities and expected time to absorption).
 | **5.3** | Dynamic Programming | concepts — the discrete-time system (`xₖ₊₁=f(xₖ,uₖ,wₖ)`) · additive cost/profit · principle of optimality · the backward-induction DP algorithm · Dice game (3 rolls → `14/3`) · World series (double-or-nothing hedge; first bet `31.25`, delta = the hedge) · Dynamic dice game (bust on a 6 → pay `≤6.15`, stop at `n≥15`) · Dynamic card game (red/black optimal stopping → `2.62`) · American & European options by DP (binomial tree: European = the world-series expectation recursion + delta; American = the card-game `max(exercise, hold)`; checked vs Black–Scholes) |
 | **5.4** | Brownian Motion & Stochastic Calculus | concepts — Brownian motion (definition, martingale & Markov properties) · stopping / first-passage times · Itô's lemma & the martingale criterion (drift `=0`) · corr(`Bₜ`, `Bₜ²`) `=0` · `P(B₁>0, B₂<0)=1/8` (two ways, with a rotational-symmetry figure) · mean stopping time to `±1` `=1` (via `Bₜ²−t`) · Wiener first-passage density (reflection principle; `E[τ]=∞`) · hitting `3` before `−5` with/without drift (Feynman–Kac → `5/8`, `(e¹⁰ᵐ−1)/(e¹⁰ᵐ−e⁻⁶ᵐ)`) · never reaching `−1` under drift (`1−e⁻²`) · is `W³` a martingale? (no — drift `3W dt`) |
 
+### Coverage — Chapter 6 · finance / option pricing (`quant_finance_options.ipynb`)
+
+Concepts explained and solved step by step, each closed form cross-checked against Black–Scholes or Monte-Carlo.
+The whole chapter uses one notation table (`T, t, τ, S, r, y, σ, c, p, C, P, D, K, PV`).
+
+| § | Topic | Contents |
+|---|-------|----------|
+| **6.1** | Option Pricing | GBM & Itô recap · **Price direction** (`S,K,τ,σ,r,D` → call/put sign table) · **Put–call parity** (`c+Ke⁻ʳᵗ=p+S`, proved by two portfolios with a payoff table) · **American vs European** — 3A never exercise an American call early on a non-dividend stock (three proofs: the `S−Ke⁻ʳᵗ>S−K` bound, a dominating cash-flow table, and Jensen's convexity); 3B a call(80)@8 / put(90)@9 arbitrage (rigorous: arbitrage **iff** `S∉(80e⁻ʳᵗ−1, 90e⁻ʳᵗ−1)`) · **BSM PDE** (derived via GBM + Itô + a riskless hedge) · **Black–Scholes formula** — 5A the six assumptions, 5B risk-neutral derivation, 5C PDE → heat-equation derivation, 5D one-touch option (`1/H`), 5E a `1/Sₜ` contract (`e^{(σ²−2r)τ}/S`) |
+
 More sections will be added as I read further.
 
 ## Running
 
 ```bash
 pip install notebook
-jupyter notebook quant_finance_interviews.ipynb   # or _calculus / _probability / _stochastic
+jupyter notebook quant_finance_interviews.ipynb   # or _calculus / _probability / _stochastic / _options
 ```
 
-The brain-teaser, probability, and stochastic notebooks use only the Python standard
-library; the calculus notebook is all markdown (no execution needed).
+The brain-teaser, probability, stochastic, and options notebooks use only the Python
+standard library; the calculus notebook is all markdown (no execution needed).
